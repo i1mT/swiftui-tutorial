@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0BDB130293399CF00CBE5CB /* todoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BDB12F293399CF00CBE5CB /* todoApp.swift */; };
+		B0BDB130293399CF00CBE5CB /* swiftui-tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BDB12F293399CF00CBE5CB /* swiftui-tutorial.swift */; };
 		B0BDB132293399CF00CBE5CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BDB131293399CF00CBE5CB /* ContentView.swift */; };
 		B0BDB134293399D000CBE5CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BDB133293399D000CBE5CB /* Assets.xcassets */; };
 		B0BDB138293399D000CBE5CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BDB137293399D000CBE5CB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B0BDB12C293399CF00CBE5CB /* swift-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0BDB12F293399CF00CBE5CB /* todoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoApp.swift; sourceTree = "<group>"; };
+		B0BDB12C293399CF00CBE5CB /* swiftui-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BDB12F293399CF00CBE5CB /* swiftui-tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swiftui-tutorial.swift"; sourceTree = "<group>"; };
 		B0BDB131293399CF00CBE5CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B0BDB133293399D000CBE5CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B0BDB135293399D000CBE5CB /* todo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = todo.entitlements; sourceTree = "<group>"; };
+		B0BDB135293399D000CBE5CB /* swiftui-tutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "swiftui-tutorial.entitlements"; sourceTree = "<group>"; };
 		B0BDB137293399D000CBE5CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -36,7 +36,7 @@
 		B0BDB123293399CF00CBE5CB = {
 			isa = PBXGroup;
 			children = (
-				B0BDB12E293399CF00CBE5CB /* todo */,
+				B0BDB12E293399CF00CBE5CB /* swiftui-tutorial */,
 				B0BDB12D293399CF00CBE5CB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,21 +44,21 @@
 		B0BDB12D293399CF00CBE5CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0BDB12C293399CF00CBE5CB /* swift-tutorial.app */,
+				B0BDB12C293399CF00CBE5CB /* swiftui-tutorial.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B0BDB12E293399CF00CBE5CB /* todo */ = {
+		B0BDB12E293399CF00CBE5CB /* swiftui-tutorial */ = {
 			isa = PBXGroup;
 			children = (
-				B0BDB12F293399CF00CBE5CB /* todoApp.swift */,
+				B0BDB12F293399CF00CBE5CB /* swiftui-tutorial.swift */,
 				B0BDB131293399CF00CBE5CB /* ContentView.swift */,
 				B0BDB133293399D000CBE5CB /* Assets.xcassets */,
-				B0BDB135293399D000CBE5CB /* todo.entitlements */,
+				B0BDB135293399D000CBE5CB /* swiftui-tutorial.entitlements */,
 				B0BDB136293399D000CBE5CB /* Preview Content */,
 			);
-			path = todo;
+			path = "swiftui-tutorial";
 			sourceTree = "<group>";
 		};
 		B0BDB136293399D000CBE5CB /* Preview Content */ = {
@@ -72,9 +72,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B0BDB12B293399CF00CBE5CB /* swift-tutorial */ = {
+		B0BDB12B293399CF00CBE5CB /* swiftui-tutorial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0BDB13B293399D000CBE5CB /* Build configuration list for PBXNativeTarget "swift-tutorial" */;
+			buildConfigurationList = B0BDB13B293399D000CBE5CB /* Build configuration list for PBXNativeTarget "swiftui-tutorial" */;
 			buildPhases = (
 				B0BDB128293399CF00CBE5CB /* Sources */,
 				B0BDB129293399CF00CBE5CB /* Frameworks */,
@@ -84,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = "swift-tutorial";
+			name = "swiftui-tutorial";
 			productName = todo;
-			productReference = B0BDB12C293399CF00CBE5CB /* swift-tutorial.app */;
+			productReference = B0BDB12C293399CF00CBE5CB /* swiftui-tutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B0BDB127293399CF00CBE5CB /* Build configuration list for PBXProject "swift-tutorial" */;
+			buildConfigurationList = B0BDB127293399CF00CBE5CB /* Build configuration list for PBXProject "swiftui-tutorial" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0BDB12B293399CF00CBE5CB /* swift-tutorial */,
+				B0BDB12B293399CF00CBE5CB /* swiftui-tutorial */,
 			);
 		};
 /* End PBXProject section */
@@ -140,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0BDB132293399CF00CBE5CB /* ContentView.swift in Sources */,
-				B0BDB130293399CF00CBE5CB /* todoApp.swift in Sources */,
+				B0BDB130293399CF00CBE5CB /* swiftui-tutorial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +261,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = todo/todo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "swiftui-tutorial/swiftui-tutorial.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"todo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-tutorial/Preview Content\"";
 				DEVELOPMENT_TEAM = ZF4H6FJC4M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -299,10 +299,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = todo/todo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "swiftui-tutorial/swiftui-tutorial.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"todo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-tutorial/Preview Content\"";
 				DEVELOPMENT_TEAM = ZF4H6FJC4M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -335,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B0BDB127293399CF00CBE5CB /* Build configuration list for PBXProject "swift-tutorial" */ = {
+		B0BDB127293399CF00CBE5CB /* Build configuration list for PBXProject "swiftui-tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0BDB139293399D000CBE5CB /* Debug */,
@@ -344,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0BDB13B293399D000CBE5CB /* Build configuration list for PBXNativeTarget "swift-tutorial" */ = {
+		B0BDB13B293399D000CBE5CB /* Build configuration list for PBXNativeTarget "swiftui-tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0BDB13C293399D000CBE5CB /* Debug */,
