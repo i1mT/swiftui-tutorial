@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B0BDB12C293399CF00CBE5CB /* todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BDB12C293399CF00CBE5CB /* swift-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BDB12F293399CF00CBE5CB /* todoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoApp.swift; sourceTree = "<group>"; };
 		B0BDB131293399CF00CBE5CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B0BDB133293399D000CBE5CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		B0BDB12D293399CF00CBE5CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0BDB12C293399CF00CBE5CB /* todo.app */,
+				B0BDB12C293399CF00CBE5CB /* swift-tutorial.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,9 +72,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B0BDB12B293399CF00CBE5CB /* todo */ = {
+		B0BDB12B293399CF00CBE5CB /* swift-tutorial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0BDB13B293399D000CBE5CB /* Build configuration list for PBXNativeTarget "todo" */;
+			buildConfigurationList = B0BDB13B293399D000CBE5CB /* Build configuration list for PBXNativeTarget "swift-tutorial" */;
 			buildPhases = (
 				B0BDB128293399CF00CBE5CB /* Sources */,
 				B0BDB129293399CF00CBE5CB /* Frameworks */,
@@ -84,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = todo;
+			name = "swift-tutorial";
 			productName = todo;
-			productReference = B0BDB12C293399CF00CBE5CB /* todo.app */;
+			productReference = B0BDB12C293399CF00CBE5CB /* swift-tutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B0BDB127293399CF00CBE5CB /* Build configuration list for PBXProject "todo" */;
+			buildConfigurationList = B0BDB127293399CF00CBE5CB /* Build configuration list for PBXProject "swift-tutorial" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0BDB12B293399CF00CBE5CB /* todo */,
+				B0BDB12B293399CF00CBE5CB /* swift-tutorial */,
 			);
 		};
 /* End PBXProject section */
@@ -335,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B0BDB127293399CF00CBE5CB /* Build configuration list for PBXProject "todo" */ = {
+		B0BDB127293399CF00CBE5CB /* Build configuration list for PBXProject "swift-tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0BDB139293399D000CBE5CB /* Debug */,
@@ -344,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0BDB13B293399D000CBE5CB /* Build configuration list for PBXNativeTarget "todo" */ = {
+		B0BDB13B293399D000CBE5CB /* Build configuration list for PBXNativeTarget "swift-tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0BDB13C293399D000CBE5CB /* Debug */,
