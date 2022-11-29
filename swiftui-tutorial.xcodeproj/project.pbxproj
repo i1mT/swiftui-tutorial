@@ -11,6 +11,14 @@
 		B0BDB132293399CF00CBE5CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BDB131293399CF00CBE5CB /* ContentView.swift */; };
 		B0BDB134293399D000CBE5CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BDB133293399D000CBE5CB /* Assets.xcassets */; };
 		B0BDB138293399D000CBE5CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BDB137293399D000CBE5CB /* Preview Assets.xcassets */; };
+		B0E8DE7A29358D8B00FEDECE /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = B0E8DE7929358D8B00FEDECE /* landmarkData.json */; };
+		B0E8DE7C29358DB000FEDECE /* LandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8DE7B29358DB000FEDECE /* LandMark.swift */; };
+		B0E8DE7E29358FDE00FEDECE /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8DE7D29358FDE00FEDECE /* ModelData.swift */; };
+		B0E8DE80293593C400FEDECE /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8DE7F293593C400FEDECE /* CircleImage.swift */; };
+		B0E8DE822935950E00FEDECE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8DE812935950E00FEDECE /* MapView.swift */; };
+		B0E8DE872935996300FEDECE /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8DE862935996300FEDECE /* LandmarkRow.swift */; };
+		B0E8DE8929359C8E00FEDECE /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8DE8829359C8E00FEDECE /* LandmarkList.swift */; };
+		B0E8DE8B29359DAD00FEDECE /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E8DE8A29359DAD00FEDECE /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		B0BDB133293399D000CBE5CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0BDB135293399D000CBE5CB /* swiftui-tutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "swiftui-tutorial.entitlements"; sourceTree = "<group>"; };
 		B0BDB137293399D000CBE5CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0E8DE7929358D8B00FEDECE /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		B0E8DE7B29358DB000FEDECE /* LandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMark.swift; sourceTree = "<group>"; };
+		B0E8DE7D29358FDE00FEDECE /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		B0E8DE7F293593C400FEDECE /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		B0E8DE812935950E00FEDECE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B0E8DE862935996300FEDECE /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		B0E8DE8829359C8E00FEDECE /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		B0E8DE8A29359DAD00FEDECE /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +68,10 @@
 		B0BDB12E293399CF00CBE5CB /* swiftui-tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				B0E8DE85293598F700FEDECE /* Resources */,
+				B0E8DE84293598DA00FEDECE /* Model */,
+				B0E8DE832935987200FEDECE /* Views */,
 				B0BDB12F293399CF00CBE5CB /* swiftui-tutorial.swift */,
-				B0BDB131293399CF00CBE5CB /* ContentView.swift */,
 				B0BDB133293399D000CBE5CB /* Assets.xcassets */,
 				B0BDB135293399D000CBE5CB /* swiftui-tutorial.entitlements */,
 				B0BDB136293399D000CBE5CB /* Preview Content */,
@@ -67,6 +85,36 @@
 				B0BDB137293399D000CBE5CB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B0E8DE832935987200FEDECE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0BDB131293399CF00CBE5CB /* ContentView.swift */,
+				B0E8DE812935950E00FEDECE /* MapView.swift */,
+				B0E8DE7F293593C400FEDECE /* CircleImage.swift */,
+				B0E8DE862935996300FEDECE /* LandmarkRow.swift */,
+				B0E8DE8829359C8E00FEDECE /* LandmarkList.swift */,
+				B0E8DE8A29359DAD00FEDECE /* LandmarkDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B0E8DE84293598DA00FEDECE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0E8DE7B29358DB000FEDECE /* LandMark.swift */,
+				B0E8DE7D29358FDE00FEDECE /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0E8DE85293598F700FEDECE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0E8DE7929358D8B00FEDECE /* landmarkData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +177,7 @@
 			files = (
 				B0BDB138293399D000CBE5CB /* Preview Assets.xcassets in Resources */,
 				B0BDB134293399D000CBE5CB /* Assets.xcassets in Resources */,
+				B0E8DE7A29358D8B00FEDECE /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E8DE7C29358DB000FEDECE /* LandMark.swift in Sources */,
+				B0E8DE822935950E00FEDECE /* MapView.swift in Sources */,
+				B0E8DE7E29358FDE00FEDECE /* ModelData.swift in Sources */,
+				B0E8DE8929359C8E00FEDECE /* LandmarkList.swift in Sources */,
+				B0E8DE8B29359DAD00FEDECE /* LandmarkDetail.swift in Sources */,
 				B0BDB132293399CF00CBE5CB /* ContentView.swift in Sources */,
 				B0BDB130293399CF00CBE5CB /* swiftui-tutorial.swift in Sources */,
+				B0E8DE872935996300FEDECE /* LandmarkRow.swift in Sources */,
+				B0E8DE80293593C400FEDECE /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
