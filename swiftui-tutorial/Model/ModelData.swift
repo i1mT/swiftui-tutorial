@@ -10,6 +10,16 @@ import Combine
 
 final class ModelData: ObservableObject {
     @Published var landmarks: [LandMark] = load("landmarkData.json")
+    @Published var profile = Profile.default
+    
+    var hikes: [Hike] = load("hikeData.json")
+    
+    var categories: [String: [LandMark]] {
+        Dictionary(grouping: landmarks, by: {$0.category.rawValue})
+    }
+    var features: [LandMark] {
+        landmarks.filter { $0.isFeatured }
+    }
 }
 
 
